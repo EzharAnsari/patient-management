@@ -1,0 +1,5 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="get-patients | GET request to example server" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" nameIsGenerated="true" path="$PROJECT_DIR$/api-requests/patient-service/get-patients.http" executionIdentifier="GET request to example server" runType="Run single request">
+    <method v="2" />
+  </configuration>
+</component>
