@@ -7,6 +7,18 @@
         <option name="envVars">
           <list>
             <DockerEnvVarImpl>
+              <option name="name" value="KAFKA_OFFSETS_TOPIC_REPLICATION_FACTOR" />
+              <option name="value" value="1" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="KAFKA_TRANSACTION_STATE_LOG_MIN_ISR" />
+              <option name="value" value="1" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
+              <option name="name" value="KAFKA_TRANSACTION_STATE_LOG_REPLICATION_FACTOR" />
+              <option name="value" value="1" />
+            </DockerEnvVarImpl>
+            <DockerEnvVarImpl>
               <option name="name" value="KAFKA_ADVERTISED_LISTENERS" />
               <option name="value" value="PLAINTEXT://kafka:9092,EXTERNAL://localhost:9094" />
             </DockerEnvVarImpl>

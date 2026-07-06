@@ -12,16 +12,16 @@
             </DockerEnvVarImpl>
           </list>
         </option>
-        <option name="commandLineOptions" value="--network internal" />
-        <option name="sourceFilePath" value="analytics-service/Dockerfile" />
-        <option name="volumeBindings">
+        <option name="portBindings">
           <list>
-            <DockerVolumeBindingImpl>
-              <option name="containerPath" value="4002" />
-              <option name="hostPath" value="4002" />
-            </DockerVolumeBindingImpl>
+            <DockerPortBindingImpl>
+              <option name="containerPort" value="4002" />
+              <option name="hostPort" value="4002" />
+            </DockerPortBindingImpl>
           </list>
         </option>
+        <option name="commandLineOptions" value="--network internal" />
+        <option name="sourceFilePath" value="analytics-service/Dockerfile" />
       </settings>
     </deployment>
     <method v="2" />
