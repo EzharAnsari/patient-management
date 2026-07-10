@@ -227,6 +227,18 @@
             "type": "aws:cdk:logicalId",
             "data": "MskCluster"
           }
+        ],
+        "/localstack/PatientManagmentCluster/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PatientManagmentCluster2109023F"
+          }
+        ],
+        "/localstack/PatientManagmentCluster/DefaultServiceDiscoveryNamespace/Resource": [
+          {
+            "type": "aws:cdk:logicalId",
+            "data": "PatientManagmentClusterDefaultServiceDiscoveryNamespace11908AD7"
+          }
         ]
       },
       "displayName": "localstack"
